@@ -28,12 +28,11 @@ public class ShowNumbers {
 
     private static void numbers(Integer num) {
         Integer i = 0;
-        Integer recorrido = 0;
         Integer[] numbers = new Integer[100];
         if(num == 1) {
             System.out.println("Your number form 1 to 100 are:");
             while(i < numbers.length) {
-                System.out.println(numbers[i] = recorrido + i);
+                System.out.println(numbers[i] = i + 1);
                 i++;
             }
         } else {
